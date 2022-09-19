@@ -1,0 +1,24 @@
+{
+  "name": "myfirstserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhurramMustaqeem/myFirstServer.git"
+  },
+  "author": "khurram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhurramMustaqeem/myFirstServer/issues"
+  },
+  "homepage": "https://github.com/KhurramMustaqeem/myFirstServer#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
