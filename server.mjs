@@ -1,9 +1,9 @@
-import express from "express";
+import express from 'express';
 const server = express();
-const port = process.evn.PORT || 3000;
-server.get("/", (req, res) => {
+const port = process.env.PORT || 3000;
+server.get('/', (req, res) => {
   console.log(`someone is looking at u`);
-  res.send(`I LOVE YOU YUMNA`)
+  res.send('I LOVE YOU YUMNA')
 });
 
 server.listen(port, () => {
