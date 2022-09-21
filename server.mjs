@@ -3,7 +3,7 @@ const server = express();
 const port = process.env.PORT || 3000;
 server.get('/', (req, res) => {
   console.log(`someone is looking at u`);
-  res.send('I LOVE YOU YUMNA')
+  res.send('hey there!! Myself Khurram')
 });
 
 server.listen(port, () => {
